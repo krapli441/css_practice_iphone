@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+}
+
+#container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: dimgrey;
+}
+
+#wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+}
+
+#wrapper > div {
+  box-sizing: border-box;
+}
+
+#screen_1 {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 390px;
+  height: 844px;
+  background-color: silver;
+  border: 3px solid black;
+  border-radius: 50px;
+}
+
+#screen_2 {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 390px;
+  height: 844px;
+  background-color: black;
+  border: 3px solid black;
+  border-radius: 50px;
+}

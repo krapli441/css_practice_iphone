@@ -1,0 +1,45 @@
+#new_progress_screen {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.newplayingbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:0 auto;
+  width: 90%;
+  height: 30%;
+  background-color:white;
+  opacity: 0.4;
+  border-radius: 15px;
+  padding:15px;
+}
+
+.newplayingalbum {
+  width: 35%;
+  height: 80%;
+  background-color: black;
+  border-radius: 20px;
+  opacity: 0.9;
+}
+
+.newmusicinfo {
+  display: block;
+  margin-left: 5%;
+  width: 50%;
+  height: 80%;
+  flex:1;
+}
+
+.newplayingtitle {
+  font-size:24px;
+  font-weight: bold;
+}
+
+.newplayingartist {
+  margin-top: 5%;
+  font-size: 20px;
+  font-weight: lighter;
+}
