@@ -1,11 +1,26 @@
 #bottom_nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
   width: 100%;
   height: 15%;
-  display: black;
 }
 
+#bottom_nav > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.swipe {
+  position:relative;
+  width: 35%;
+  height: 6%;
+  background-color: white;
+  border-radius: 15px;
+  top:35px;
+}
 
 .flashlight {
   width: 15%;
@@ -13,7 +28,10 @@
   background-color: white;
   border: 1px solid grey;
   border-radius: 50%;
+  color: black;
+  font-size: 28px;
 }
+
 
 .camera {
   width: 15%;
@@ -21,4 +39,6 @@
   background-color: white;
   border: 1px solid grey;
   border-radius: 50%; 
+  font-size: 28px;
 }
+
